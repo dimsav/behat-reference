@@ -12,7 +12,7 @@ Select a radio button
 $this->selectOption('my_name', 'my_value');
 ```
 
-Check if selected
+Assert is selected
 
 ```php
 $option = $this->getSession()->getPage()->find('css', '[name="my_name"][value="my_value"]');
