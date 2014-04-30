@@ -24,12 +24,12 @@ assertEquals('checked', $option->getAttribute('checked'));
 Check a checkbox
 
 ```php
-$this->checkOption('my_name);
+$this->checkOption('my_name');
 ```
 
 Uncheck a checkbox
 
 
 ```php
-$this->uncheckOption('my_name);
+$this->uncheckOption('my_name');
 ```
